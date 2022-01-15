@@ -262,42 +262,42 @@ If the character before and after CH is space or tab, CH is NOT slash"
 
 ;; {{ specify major mode uses Evil (vim) NORMAL state or EMACS original state.
 ;; You may delete this setup to use Evil NORMAL state always.
-(dolist (p '((minibuffer-inactive-mode . emacs)
-             (calendar-mode . emacs)
-             (special-mode . emacs)
-             (grep-mode . emacs)
-             (Info-mode . emacs)
-             (term-mode . emacs)
-             (sdcv-mode . emacs)
-             (anaconda-nav-mode . emacs)
-             (log-edit-mode . emacs)
-             (vc-log-edit-mode . emacs)
-             (magit-log-edit-mode . emacs)
-             (erc-mode . emacs)
-             (neotree-mode . emacs)
-             (w3m-mode . emacs)
-             (gud-mode . emacs)
-             (help-mode . emacs)
-             (eshell-mode . emacs)
-             (shell-mode . emacs)
-             (xref--xref-buffer-mode . emacs)
-             ;;(message-mode . emacs)
-             (epa-key-list-mode . emacs)
-             (fundamental-mode . emacs)
-             (weibo-timeline-mode . emacs)
-             (weibo-post-mode . emacs)
-             (woman-mode . emacs)
-             (sr-mode . emacs)
-             (profiler-report-mode . emacs)
-             (dired-mode . emacs)
-             (compilation-mode . emacs)
-             (speedbar-mode . emacs)
-             (ivy-occur-mode . emacs)
-             (ffip-file-mode . emacs)
-             (ivy-occur-grep-mode . normal)
-             (messages-buffer-mode . normal)
-             (js2-error-buffer-mode . emacs)))
-  (evil-set-initial-state (car p) (cdr p)))
+;; (dolist (p '((minibuffer-inactive-mode . emacs)
+;;              (calendar-mode . emacs)
+;;              (special-mode . emacs)
+;;              (grep-mode . emacs)
+;;              (Info-mode . emacs)
+;;              (term-mode . emacs)
+;;              (sdcv-mode . emacs)
+;;              (anaconda-nav-mode . emacs)
+;;              (log-edit-mode . emacs)
+;;              (vc-log-edit-mode . emacs)
+;;              (magit-log-edit-mode . emacs)
+;;              (erc-mode . emacs)
+;;              (neotree-mode . emacs)
+;;              (w3m-mode . emacs)
+;;              (gud-mode . emacs)
+;;              (help-mode . emacs)
+;;              (eshell-mode . emacs)
+;;              (shell-mode . emacs)
+;;              (xref--xref-buffer-mode . emacs)
+;;              ;;(message-mode . emacs)
+;;              (epa-key-list-mode . emacs)
+;;              (fundamental-mode . emacs)
+;;              (weibo-timeline-mode . emacs)
+;;              (weibo-post-mode . emacs)
+;;              (woman-mode . emacs)
+;;              (sr-mode . emacs)
+;;              (profiler-report-mode . emacs)
+;;              (dired-mode . emacs)
+;;              (compilation-mode . emacs)
+;;              (speedbar-mode . emacs)
+;;              (ivy-occur-mode . emacs)
+;;              (ffip-file-mode . emacs)
+;;              (ivy-occur-grep-mode . normal)
+;;              (messages-buffer-mode . normal)
+;;              (js2-error-buffer-mode . emacs)))
+;;   (evil-set-initial-state (car p) (cdr p)))
 ;; }}
 
 ;; I prefer Emacs way after pressing ":" in evil-mode
@@ -494,7 +494,7 @@ If INCLUSIVE is t, the text object is inclusive."
 
 ;; {{ use `,` as leader key
 (general-create-definer my-comma-leader-def
-  :prefix ","
+  :prefix "SPC"
   :states '(normal visual))
 
 (defun my-rename-thing-at-point (&optional n)
@@ -532,11 +532,8 @@ If N > 0, only occurrences in current N lines are renamed."
   "m" 'evil-set-marker
   "em" 'shellcop-erase-buffer
   "eb" 'eval-buffer
-  "sc" 'scratch
   "ee" 'eval-expression
   "aa" 'copy-to-x-clipboard ; used frequently
-  "aw" 'ace-swap-window
-  "af" 'ace-maximize-window
   "ac" 'aya-create
   "pp" 'paste-from-x-clipboard ; used frequently
   "bs" '(lambda () (interactive) (goto-char (car (my-create-range t))))
@@ -546,8 +543,6 @@ If N > 0, only occurrences in current N lines are renamed."
   "fn" 'cp-filename-of-current-buffer
   "fp" 'cp-fullpath-of-current-buffer
   "dj" 'dired-jump ;; open the dired from current file
-  "xo" 'ace-window
-  "ff" 'my-toggle-full-window ;; I use WIN+F in i3
   "ip" 'find-file-in-project
   "tt" 'find-file-in-current-directory
   "jj" 'find-file-in-project-at-point
@@ -565,12 +560,6 @@ If N > 0, only occurrences in current N lines are renamed."
   "cp" 'my-evilnc-comment-or-uncomment-paragraphs
   "ct" 'evilnc-comment-or-uncomment-html-tag ; evil-nerd-commenter v3.3.0 required
   "ic" 'my-imenu-comments
-  ;; {{ window move
-  "wh" 'evil-window-left
-  "wl" 'evil-window-right
-  "wk" 'evil-window-up
-  "wj" 'evil-window-down
-  ;; }}
   "rv" 'my-rename-thing-at-point
   "nm" 'js2hl-add-namespace-to-thing-at-point
   "rb" 'evilmr-replace-in-buffer
@@ -588,7 +577,6 @@ If N > 0, only occurrences in current N lines are renamed."
   "rjs" 'run-js
   "jsr" 'js-comint-send-region
   "jsb" 'my-js-clear-send-buffer
-  "kb" 'kill-buffer-and-window ;; "k" is preserved to replace "C-g"
   "ls" 'highlight-symbol
   "lq" 'highlight-symbol-query-replace
   "ln" 'highlight-symbol-nav-mode ; use M-n/M-p to navigation between symbols
@@ -614,27 +602,6 @@ If N > 0, only occurrences in current N lines are renamed."
   "di" 'evilmi-delete-items
   "si" 'evilmi-select-items
   "jb" 'my-beautfiy-code
-  "jp" 'my-print-json-path
-  ;; {{ @see http://ergoemacs.org/emacs/emacs_pinky_2020.html
-  ;; `keyfreq-show' proved sub-window operations happen most.
-  "x0" 'delete-window
-  "x1" 'delete-other-windows
-  "x2" 'split-window-vertically
-  "x3" 'split-window-horizontally
-  "xq" 'delete-window
-  "xa" 'split-window-vertically
-  "xd" 'split-window-horizontally
-  "s0" 'delete-window
-  "s1" 'delete-other-windows
-  "s2" 'split-window-vertically
-  "s3" 'split-window-horizontally
-  "sq" 'delete-window
-  "sa" 'split-window-vertically
-  "sd" 'split-window-horizontally
-  "oo" 'delete-other-windows
-  ;; }}
-  "xr" 'rotate-windows
-  "xt" 'toggle-two-split-window
   "uu" 'my-transient-winner-undo
   "fs" 'ffip-save-ivy-last
   "fr" 'ivy-resume
@@ -664,22 +631,11 @@ If N > 0, only occurrences in current N lines are renamed."
   "bj" 'buf-move-down
   "bh" 'buf-move-left
   "bl" 'buf-move-right
-  "0" 'winum-select-window-0-or-10
-  "1" 'winum-select-window-1
-  "2" 'winum-select-window-2
-  "3" 'winum-select-window-3
-  "4" 'winum-select-window-4
-  "5" 'winum-select-window-5
-  "6" 'winum-select-window-6
-  "7" 'winum-select-window-7
-  "8" 'winum-select-window-8
-  "9" 'winum-select-window-9
   "xm" 'counsel-M-x
   "xx" 'er/expand-region
   "xf" 'counsel-find-file
   "xb" 'ivy-switch-buffer-by-pinyin
   "xh" 'mark-whole-buffer
-  "xk" 'kill-buffer
   "xs" 'save-buffer
   "xc" 'my-switch-to-shell
   "xz" 'my-switch-to-shell
@@ -695,15 +651,63 @@ If N > 0, only occurrences in current N lines are renamed."
   "yu" 'cliphist-select-item
   "ih" 'my-goto-git-gutter ; use ivy-mode
   "ir" 'ivy-resume
-  "ww" 'narrow-or-widen-dwim
   "ycr" 'my-yas-reload-all
-  "wf" 'popup-which-function)
+  "wf" 'popup-which-function
+
+  ;; zd define
+  "SPC" 'execute-extended-command
+  "TAB" 'evil-switch-to-windows-last-buffer
+  "!" 'shell-command
+
+  "ba" 'auto-save-mode
+  "bb" 'ibuffer-list-buffers
+  "bn" 'evil-buffer-new
+  "bd" 'kill-current-buffer
+  "bs" 'scratch
+  "br" 'read-only-mode
+  "bx" 'kill-buffer-and-window
+
+  ;; {{ window operation
+  "wh" 'evil-window-left
+  "wl" 'evil-window-right
+  "wk" 'evil-window-up
+  "wj" 'evil-window-down
+  "wd" 'delete-window
+  "ws" 'split-window-vertically
+  "wv" 'split-window-horizontally
+
+  "wp" 'ace-swap-window
+  "wm" 'maximize-window
+  "wg" 'wg-create-workgroup ; save windows layout
+  "wo" 'wg-open-workgroup ; load windows layout
+  "wt" 'toggle-two-split-window
+  "wf" 'my-toggle-full-window
+
+  "0" 'winum-select-window-0-or-10
+  "1" 'winum-select-window-1
+  "2" 'winum-select-window-2
+  "3" 'winum-select-window-3
+  "4" 'winum-select-window-4
+  "5" 'winum-select-window-5
+  "6" 'winum-select-window-6
+  "7" 'winum-select-window-7
+  "8" 'winum-select-window-8
+  "9" 'winum-select-window-9
+  ;; }}
+
+  "nn" 'narrow-or-widen-dwim
+
+  "fs" 'save-buffer
+  "fj" 'dired-jump
+
+  "qq" 'evil-quit-all
+)
 ;; }}
 
 ;; {{ Use `SPC` as leader key
 ;; all keywords arguments are still supported
 (general-create-definer my-space-leader-def
-  :prefix "SPC"
+  :prefix ","
   :states '(normal visual))
 
 ;; Please check "init-ediff.el" which contains `my-space-leader-def' code too
@@ -716,12 +720,7 @@ If N > 0, only occurrences in current N lines are renamed."
   "mf" 'mark-defun
   "xc" 'save-buffers-kill-terminal ; not used frequently
   "cc" 'my-dired-redo-last-command
-  "ss" 'wg-create-workgroup ; save windows layout
-  "sc" 'shell-command
-  "ll" 'wg-open-workgroup ; load windows layout
 
-  "jj" 'scroll-other-window
-  "kk" 'scroll-other-window-up
   "hh" 'random-healthy-color-theme
   "yy" 'hydra-launcher/body
   "ii" 'my-toggle-indentation

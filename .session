@@ -1,5 +1,282 @@
 ;;; -*- coding: utf-8; -*-
-;;; Automatically generated on Sat Jan 15 11:29:31 2022
+;;; Automatically generated on Wed Jan 19 00:06:22 2022
 ;;; Invoked by parallels@debian-gnu-linux-10 using 26.1
-(setq-default evil-ex-history '(#("q" 0 1 (ex-index 1))))
+(setq-default kill-ring '("" "tmp" "s" #("
+" 0 1 (yank-handler \.\.\. fontified t)) #("    test();
+" 0 4 (fontified t yank-handler \.\.\.) 4 5 (fontified t yank-handler \.\.\.) 5 6 (fontified t yank-handler \.\.\.) 6 7 (fontified t yank-handler \.\.\.) 7 8 (fontified t yank-handler \.\.\.) 8 9 (fontified t yank-handler \.\.\.) 9 10 (fontified t yank-handler \.\.\.) 10 11 (fontified t yank-handler \.\.\.) 11 12 (fontified t yank-handler \.\.\.)) #("int test () {
+
+    
+}
+" 0 2 (face font-lock-type-face fontified t yank-handler \.\.\.) 2 3 (face font-lock-type-face c-type c-decl-id-start fontified t yank-handler \.\.\.) 3 4 (fontified t yank-handler \.\.\.) 4 8 (face font-lock-function-name-face fontified t yank-handler \.\.\.) 8 22 (fontified t yank-handler \.\.\.)) #("s" 0 1 (fontified t face font-lock-type-face)) #("                                                    \\
+" 0 1 (c-in-sws t fontified t yank-handler \.\.\.) 1 52 (c-in-sws t fontified t yank-handler \.\.\.) 52 53 (c-in-sws t fontified t yank-handler \.\.\.) 53 54 (c-in-sws t fontified t yank-handler \.\.\.)) #("
+" 0 1 (c-in-sws t c-is-sws t fontified t yank-handler \.\.\.)) "" #("	" 0 1 (fontified t))))
+(setq-default session-file-alist '(("~/work/tmp/my test" 3 nil 1 nil nil 4 (overwrite-mode)) ("~/work/tmp/TAGS" 51 nil 1 nil nil 2 (overwrite-mode)) ("~/work/qt/test1/main.cpp" 25 nil 1 nil nil 26 (overwrite-mode)) ("~/work/tmp/xixi" 5 5 1 nil nil 13 (overwrite-mode)) ("~/work/tmp/main.c" 98 98 1 nil nil 152 (overwrite-mode)) ("~/.emacs.d/custom-set-variables.el" 1 nil 1 nil nil 3590 (overwrite-mode))))
+(setq-default file-name-history '("~/work/tmp/xixi" "~/work/tmp/main.c" "~/work/tmp/TAGS" "~/work/tmp/a.out" "~/work/qt/test1/main.cpp" #("/home/parallels/work/tmp/xixi" 0 29 (ivy-index 6)) #("/home/parallels/work/tmp/" 0 25 (ivy-index 0)) "~/.emacs.d/custom-set-variables.el"))
+(setq-default regexp-search-ring '("\\_<syscall\\_>"))
+(setq-default amx-history '(ace-window read-only-mode toggle-read-only Buffer-menu-switch-other-window buffer-menu-other-window Buffer-menu-other-window kill-buffer-and-window))
+(setq-default buffer-name-history '("TAGS" "a.out" "*c*"))
+(setq-default command-history '((kill-current-buffer) (execute-extended-command nil "kill-current-buffer" #("kill buffe
+kill-buffer
+kill-current-buffer
+kill-this-buffer
+wg-kill-workgroup-and-buffers
+kill-buffer-and-window
+ido-kill-buffer
+kill-all-but-current-buffer
+ert-kill-all-test-buffers
+kill-some-buffers" 10 11 ... 11 15 ... 15 16 ... 16 20 ... 20 22 ... 22 23 ... 23 27 ... 27 36 ... 36 40 ... 40 42 ... 42 43 ... 43 47 ... 47 53 ... 53 57 ... 57 59 ... 59 60 ... 60 63 ... 63 67 ... 67 82 ... 82 86 ... 86 89 ... 89 90 ... 90 94 ... 94 95 ... 95 99 ... 99 112 ... 112 113 ... 113 117 ... 117 121 ... 121 122 ... 122 126 ... 126 128 ... 128 129 ... 129 133 ... 133 150 ... 150 154 ... 154 156 ... 156 157 ... 157 161 ... 161 165 ... 165 175 ... 175 179 ... 179 182 ... 182 183 ... 183 187 ... 187 193 ... 193 197 ... 197 200 ...)) (evil-record-macro 113) (kill-buffer "TAGS") (evil-record-macro 107) (evil-find-char-pinyin nil 106) (evil-record-macro 32) (wg-yank-wconfig) (execute-extended-command nil "wg-yank-wconfig" #("yank cop
+mouse-yank-secondary
+wg-yank-wconfig" 8 9 ... 9 15 ... 15 19 ... 19 22 ... 22 24 ... 24 29 ... 29 30 ... 30 33 ... 33 37 ... 37 39 ... 39 41 ... 41 45 ...)) (kill-buffer "a.out") (dired-jump nil nil) (execute-extended-command nil "dired-jump" #("dired-j
+dired-backup-diff
+dired-at-point
+image-dired-mark-tagged-files
+image-dired-delete-tag
+dired-undo
+dired-change-marks
+image-dired-dired-toggle-marked-thumbs
+image-dired-tag-files
+image-dired-minor-mode" 7 8 ... 8 14 ... 14 25 ... 25 26 ... 26 32 ... 32 40 ... 40 41 ... 41 47 ... 47 53 ... 53 70 ... 70 71 ... 71 77 ... 77 83 ... 83 93 ... 93 94 ... 94 100 ... 100 104 ... 104 105 ... 105 111 ... 111 123 ... 123 124 ... 124 130 ... 130 136 ... 136 142 ... 142 162 ... 162 163 ... 163 169 ... 169 175 ... 175 184 ... 184 185 ... 185 191 ... 191 197 ... 197 207 ...)) (wg-create-workgroup "wg0" nil) (save-buffer 1) (execute-extended-command nil "save-buffer" #("save
+w3m-session-save
+bookmark-save
+customize-save-variable
+auto-save-enable
+w3m-lnum-save-image
+evil-save-modified-and-close
+save-buffers-kill-emacs
+mouse-secondary-save-then-kill
+erc-save-buffer-in-logs" 4 5 ... 5 17 ... 17 20 ... 20 21 ... 21 22 ... 22 31 ... 31 34 ... 34 35 ... 35 36 ... 36 46 ... 46 49 ... 49 59 ... 59 60 ... 60 65 ... 65 68 ... 68 76 ... 76 77 ... 77 86 ... 86 89 ... 89 96 ... 96 97 ... 97 102 ... 102 105 ... 105 125 ... 125 126 ... 126 129 ... 129 149 ... 149 150 ... 150 166 ... 166 169 ... 169 180 ... 180 181 ... 181 185 ... 185 188 ... 188 204 ...)) (my-multi-purpose-grep nil) (execute-extended-command nil "my-multi-purpose-grep" #("my-mul
+my-multi-purpose-grep" 6 7 ... 7 12 ... 12 28 ...)) (execute-extended-command nil "my-multi-purpose-grep" #("my-mu
+my-multi-purpose-grep" 5 6 ... 6 10 ... 10 27 ...)) (execute-extended-command nil "my-multi-purpose-grep" #("my-m
+my-imenu-comments
+my-toggle-typewriter
+my-clean-aspell-dict
+my-select-from-kill-ring
+my-evil-inner-statement
+my-evil-a-single-or-double-quote
+my-insert-bash-history
+my-counsel-recentf
+hydra-dired/my-play-both-mp3-and-wav-and-exit" 4 5 ... 5 8 ... 8 22 ... 22 23 ... 23 26 ... 26 43 ... 43 44 ... 44 47 ... 47 64 ... 64 65 ... 65 68 ... 68 89 ... 89 90 ... 90 93 ... 93 113 ... 113 114 ... 114 117 ... 117 146 ... 146 147 ... 147 150 ... 150 169 ... 169 170 ... 170 173 ... 173 188 ... 188 189 ... 189 201 ... 201 204 ... 204 234 ...)) (amx-save-to-file) (execute-extended-command nil "amx-save-to-file" #("save file
+amx-save-to-file
+dired-flag-auto-save-files
+abbrev-edit-save-to-file
+save-place-forget-unreadable-files" 9 10 ... 10 14 ... 14 18 ... 18 22 ... 22 25 ... 25 26 ... 26 27 ... 27 43 ... 43 47 ... 47 48 ... 48 51 ... 51 53 ... 53 54 ... 54 66 ... 66 70 ... 70 74 ... 74 77 ... 77 78 ... 78 79 ... 79 83 ... 83 108 ... 108 111 ... 111 113 ...)) (wg-open-workgroup) (execute-extended-command nil "wg-open-workgroup" #("wg-
+ivy-wgrep-change-to-wgrep-mode
+hydra-launcher/wg-open-workgroup-and-exit
+wg-create-workgroup
+hydra-launcher/wg-create-workgroup-and-exit
+wg-open-workgroup
+wg-switch-workgroup" 3 4 ... 4 8 ... 8 10 ... 10 24 ... 24 26 ... 26 34 ... 34 35 ... 35 50 ... 50 52 ... 52 76 ... 76 77 ... 77 79 ... 79 96 ... 96 97 ... 97 112 ... 112 114 ... 114 140 ... 140 141 ... 141 143 ... 143 158 ... 158 159 ... 159 161 ... 161 178 ...)) (wg-switch-workgroup) (execute-extended-command nil "wg-switch-workgroup" #("wg-
+ivy-wgrep-change-to-wgrep-mode
+hydra-launcher/wg-open-workgroup-and-exit
+wg-create-workgroup
+hydra-launcher/wg-create-workgroup-and-exit
+wg-open-workgroup
+wg-switch-workgroup" 3 4 ... 4 8 ... 8 10 ... 10 24 ... 24 26 ... 26 34 ... 34 35 ... 35 50 ... 50 52 ... 52 76 ... 76 77 ... 77 79 ... 79 96 ... 96 97 ... 97 112 ... 112 114 ... 114 140 ... 140 141 ... 141 143 ... 143 158 ... 158 159 ... 159 161 ... 161 178 ...)) (wg-revert-all-workgroups) (execute-extended-command nil "wg-revert-all-workgroups" "wg-remo") (evil-quit-all nil) (execute-extended-command nil "evil-quit-all" #("quit
+help-quit
+evil-quit-all
+magit-reset-quickly
+quickurl-browse-url-ask
+quickurl-ask
+evilnc-quick-comment-or-uncomment-to-the-line
+keyboard-quit
+cvs-quickdir
+toggle-uniquify-buffer-names" 4 5 ... 5 10 ... 10 13 ... 13 14 ... 14 15 ... 15 20 ... 20 23 ... 23 28 ... 28 29 ... 29 41 ... 41 44 ... 44 48 ... 48 49 ... 49 52 ... 52 72 ... 72 73 ... 73 76 ... 76 85 ... 85 86 ... 86 93 ... 93 96 ... 96 131 ... 131 132 ... 132 141 ... 141 144 ... 144 145 ... 145 146 ... 146 150 ... 150 153 ... 153 158 ... 158 159 ... 159 169 ... 169 172 ... 172 187 ...)) (ace-window 1) (execute-extended-command nil "ace-window" #("ace- window
+ace-delete-other-windows
+ace-delete-window
+ace-select-window
+ace-swap-window
+ace-window-display-mode
+replace-buffer-in-windows
+customize-face-other-window
+hydra-window/ace-delete-other-windows
+ace-window" 11 12 ... 12 16 ... 16 29 ... 29 34 ... 34 36 ... 36 37 ... 37 41 ... 41 48 ... 48 53 ... 53 54 ... 54 55 ... 55 59 ... 59 66 ... 66 71 ... 71 72 ... 72 73 ... 73 77 ... 77 82 ... 82 87 ... 87 88 ... 88 89 ... 89 93 ... 93 98 ... 98 112 ... 112 113 ... 113 117 ... 117 121 ... 121 131 ... 131 136 ... 136 138 ... 138 139 ... 139 150 ... 150 154 ... 154 160 ... 160 165 ... 165 166 ... 166 167 ... 167 180 ... 180 184 ... 184 197 ... 197 202 ... 202 204 ... 204 205 ... 205 209 ... 209 214 ... 214 215 ...)) (ace-swap-window) (execute-extended-command nil "ace-swap-window" #("ace-swa
+ace-swap-window" 7 8 ... 8 14 ... 14 23 ...)) (maximize-window) (execute-extended-command nil "maximize-window" #("max
+magit-submodule-update
+image-dired-mark-tagged-files
+magit-stash-drop
+epa-mail-decrypt
+rmail-previous-labeled-message
+evil-exit-emacs-state
+image-increase-size
+makefile-bsdmake-mode
+rmail-next-message" 3 4 ... 4 6 ... 6 26 ... 26 27 ... 27 28 ... 28 30 ... 30 39 ... 39 41 ... 41 56 ... 56 57 ... 57 59 ... 59 73 ... 73 74 ... 74 78 ... 78 80 ... 80 90 ... 90 91 ... 91 92 ... 92 94 ... 94 121 ... 121 122 ... 122 133 ... 133 135 ... 135 143 ... 143 144 ... 144 145 ... 145 147 ... 147 163 ... 163 164 ... 164 166 ... 166 176 ... 176 178 ... 178 185 ... 185 186 ... 186 187 ... 187 189 ... 189 204 ...)) (execute-extended-command nil "maximize-window" #("max win
+maximize-window" 7 8 ... 8 11 ... 11 17 ... 17 19 ... 19 23 ...)) (wg-create-workgroup "kkk" nil) (eww-open-file "/home/parallels/work/tmp/xixi") (execute-extended-command nil "eww-open-file" #("open file
+eww-open-file
+open-dribble-file" 9 10 ... 10 14 ... 14 18 ... 18 19 ... 19 22 ... 22 23 ... 23 24 ... 24 28 ... 28 37 ... 37 40 ... 40 41 ...)) (evil-find-char-pinyin nil 32) (evil-delete 152 153 (quote line) nil nil) (execute-extended-command nil "maximize-window" #("max
+magit-submodule-update
+image-dired-mark-tagged-files
+magit-stash-drop
+epa-mail-decrypt
+evil-exit-emacs-state
+image-increase-size
+makefile-bsdmake-mode
+counsel-semantic-or-imenu
+bookmark-save" 3 4 ... 4 6 ... 6 26 ... 26 27 ... 27 28 ... 28 30 ... 30 39 ... 39 41 ... 41 56 ... 56 57 ... 57 59 ... 59 73 ... 73 74 ... 74 78 ... 78 80 ... 80 90 ... 90 91 ... 91 102 ... 102 104 ... 104 112 ... 112 113 ... 113 114 ... 114 116 ... 116 132 ... 132 133 ... 133 135 ... 135 145 ... 145 147 ... 147 154 ... 154 155 ... 155 165 ... 165 167 ... 167 180 ... 180 181 ... 181 185 ... 185 187 ... 187 194 ...)) (my-toggle-full-window) (execute-extended-command nil "my-toggle-full-window" #("my-toggle
+my-toggle-typewriter
+my-toggle-indentation
+my-toggle-full-window
+hydra-launcher/my-toggle-typewriter-and-exit" 9 10 ... 10 18 ... 18 30 ... 30 31 ... 31 39 ... 39 52 ... 52 53 ... 53 61 ... 61 74 ... 74 75 ... 75 90 ... 90 98 ... 98 119 ...)) (execute-extended-command nil "my-toggle-full-window" #("my-toggl
+my-toggle-typewriter
+my-toggle-indentation
+my-toggle-full-window
+hydra-launcher/my-toggle-typewriter-and-exit" 8 9 ... 9 16 ... 16 29 ... 29 30 ... 30 37 ... 37 51 ... 51 52 ... 52 59 ... 59 73 ... 73 74 ... 74 89 ... 89 96 ... 96 118 ...)) (execute-extended-command nil "my-toggle-full-window" #("my-toggle-ful
+my-toggle-full-window" 13 14 ... 14 26 ... 26 35 ...)) (toggle-two-split-window) (execute-extended-command nil "toggle-two-split-window" #("toggle-two
+toggle-two-split-window" 10 11 ... 11 20 ... 20 34 ...)) (execute-extended-command nil "bbdb-toggle-records-layout" #("togg
+bbdb-toggle-records-layout
+undo-tree-visualizer-toggle-timestamps
+ivy-toggle-case-fold
+my-toggle-typewriter
+toggle-company-ispell
+mode-line-toggle-read-only
+time-stamp-toggle-active
+emms-lyrics-toggle
+hydra-toggle/abbrev-mode" 4 5 ... 5 10 ... 10 13 ... 13 31 ... 31 32 ... 32 53 ... 53 56 ... 56 70 ... 70 71 ... 71 75 ... 75 78 ... 78 91 ... 91 92 ... 92 95 ... 95 98 ... 98 112 ... 112 113 ... 113 116 ... 116 134 ... 134 135 ... 135 145 ... 145 148 ... 148 161 ... 161 162 ... 162 173 ... 173 176 ... 176 186 ... 186 187 ... 187 199 ... 199 202 ... 202 205 ... 205 206 ... 206 212 ... 212 215 ... 215 230 ...)) (rotate-windows) (execute-extended-command nil "rotate-windows" #("rot
+color-theme-sanityinc-tomorrow-blue
+magit-stash-drop
+paste-from-x-clipboard
+browse-url
+gnus-group-split-update
+rotate-windows
+next-error
+hydra-describe/describe-minor-mode-from-indicator-and-exit
+browse-web" 3 4 ... 4 31 ... 31 33 ... 33 39 ... 39 40 ... 40 53 ... 53 55 ... 55 56 ... 56 57 ... 57 64 ... 64 66 ... 66 79 ... 79 80 ... 80 81 ... 81 83 ... 83 90 ... 90 91 ... 91 97 ... 97 99 ... 99 114 ... 114 115 ... 115 117 ... 117 129 ... 129 130 ... 130 137 ... 137 139 ... 139 140 ... 140 141 ... 141 177 ... 177 179 ... 179 199 ... 199 200 ... 200 201 ... 201 203 ... 203 210 ...)) (execute-extended-command nil "rotate-windows" #("rota
+rotate-windows
+evil-window-rotate-downwards
+ivy-rotate-sort
+highlight-changes-rotate-faces
+rot13-region
+toggle-rot13-mode
+rot13-other-window
+evil-visual-rotate
+ivy-rotate-preferred-builders" 4 5 ... 5 8 ... 8 19 ... 19 20 ... 20 32 ... 32 35 ... 35 48 ... 48 49 ... 49 53 ... 53 56 ... 56 64 ... 64 65 ... 65 83 ... 83 86 ... 86 95 ... 95 96 ... 96 99 ... 99 108 ... 108 109 ... 109 116 ... 116 119 ... 119 126 ... 126 127 ... 127 130 ... 130 145 ... 145 146 ... 146 158 ... 158 161 ... 161 164 ... 164 165 ... 165 169 ... 169 172 ... 172 194 ...)) (execute-extended-command nil "ace-swap-window" #("ace window
+ace-delete-other-windows
+ace-delete-window
+ace-select-window
+ace-swap-window
+ace-window-display-mode
+replace-buffer-in-windows
+customize-face-other-window
+hydra-window/ace-delete-other-windows
+ace-window" 10 11 ... 11 14 ... 14 28 ... 28 33 ... 33 35 ... 35 36 ... 36 39 ... 39 47 ... 47 52 ... 52 53 ... 53 54 ... 54 57 ... 57 65 ... 65 70 ... 70 71 ... 71 72 ... 72 75 ... 75 81 ... 81 86 ... 86 87 ... 87 88 ... 88 91 ... 91 92 ... 92 97 ... 97 111 ... 111 112 ... 112 116 ... 116 119 ... 119 130 ... 130 135 ... 135 137 ... 137 138 ... 138 149 ... 149 152 ... 152 159 ... 159 164 ... 164 165 ... 165 166 ... 166 179 ... 179 182 ... 182 196 ... 196 201 ... 201 203 ... 203 204 ... 204 207 ... 207 208 ... 208 213 ... 213 214 ...)) (evil-delete 243 255 (quote line) nil nil) (auto-save-enable) (execute-extended-command nil "auto-save-enable" #("auto save
+auto-save-enable
+auto-save-visited-mode
+auto-save-mode
+dired-flag-auto-save-files
+keyfreq-autosave-mode
+do-auto-save" 9 10 ... 10 14 ... 14 15 ... 15 18 ... 18 26 ... 26 27 ... 27 31 ... 31 32 ... 32 35 ... 35 49 ... 49 50 ... 50 54 ... 54 55 ... 55 58 ... 58 64 ... 64 65 ... 65 76 ... 76 80 ... 80 81 ... 81 84 ... 84 91 ... 91 92 ... 92 100 ... 100 104 ... 104 107 ... 107 113 ... 113 114 ... 114 117 ... 117 121 ... 121 122 ... 122 125 ... 125 126 ...)) (auto-save-mode (quote toggle)) (execute-extended-command nil "auto-save-mode" #("auto-save-mode
+auto-save-mode" 14 15 ... 15 28 ... 28 29 ...)) (execute-extended-command nil "auto-save-mode" #("auto save
+auto-save-enable
+auto-save-visited-mode
+auto-save-buffers
+auto-save-mode
+dired-flag-auto-save-files
+keyfreq-autosave-mode
+do-auto-save" 9 10 ... 10 14 ... 14 15 ... 15 18 ... 18 26 ... 26 27 ... 27 31 ... 31 32 ... 32 35 ... 35 49 ... 49 50 ... 50 54 ... 54 55 ... 55 58 ... 58 67 ... 67 68 ... 68 72 ... 72 73 ... 73 76 ... 76 82 ... 82 83 ... 83 94 ... 94 98 ... 98 99 ... 99 102 ... 102 109 ... 109 110 ... 110 118 ... 118 122 ... 122 125 ... 125 131 ... 131 132 ... 132 135 ... 135 139 ... 139 140 ... 140 143 ... 143 144 ...)) (auto-save-buffers) (execute-extended-command nil "auto-save-buffers" #("auto save
+auto-save-enable
+auto-save-visited-mode
+auto-save-buffers
+auto-save-mode
+dired-flag-auto-save-files
+keyfreq-autosave-mode
+do-auto-save" 9 10 ... 10 14 ... 14 15 ... 15 18 ... 18 26 ... 26 27 ... 27 31 ... 31 32 ... 32 35 ... 35 49 ... 49 50 ... 50 54 ... 54 55 ... 55 58 ... 58 67 ... 67 68 ... 68 72 ... 72 73 ... 73 76 ... 76 82 ... 82 83 ... 83 94 ... 94 98 ... 98 99 ... 99 102 ... 102 109 ... 109 110 ... 110 118 ... 118 122 ... 122 125 ... 125 131 ... 131 132 ... 132 135 ... 135 139 ... 139 140 ... 140 143 ... 143 144 ...)) (auto-save-visited-mode (quote toggle)) (execute-extended-command nil "auto-save-visited-mode" #("auto save
+auto-save-enable
+auto-save-visited-mode
+auto-save-buffers
+auto-save-mode
+dired-flag-auto-save-files
+keyfreq-autosave-mode
+do-auto-save" 9 10 ... 10 14 ... 14 15 ... 15 18 ... 18 26 ... 26 27 ... 27 31 ... 31 32 ... 32 35 ... 35 49 ... 49 50 ... 50 54 ... 54 55 ... 55 58 ... 58 67 ... 67 68 ... 68 72 ... 72 73 ... 73 76 ... 76 82 ... 82 83 ... 83 94 ... 94 98 ... 98 99 ... 99 102 ... 102 109 ... 109 110 ... 110 118 ... 118 122 ... 122 125 ... 125 131 ... 131 132 ... 132 135 ... 135 139 ... 139 140 ... 140 143 ... 143 144 ...)) (execute-extended-command nil "auto-save-enable" #("auto save
+auto-save-enable
+auto-save-visited-mode
+auto-save-buffers
+auto-save-mode
+dired-flag-auto-save-files
+keyfreq-autosave-mode
+do-auto-save" 9 10 ... 10 14 ... 14 15 ... 15 18 ... 18 26 ... 26 27 ... 27 31 ... 31 32 ... 32 35 ... 35 49 ... 49 50 ... 50 54 ... 54 55 ... 55 58 ... 58 67 ... 67 68 ... 68 72 ... 72 73 ... 73 76 ... 76 82 ... 82 83 ... 83 94 ... 94 98 ... 98 99 ... 99 102 ... 102 109 ... 109 110 ... 110 118 ... 118 122 ... 122 125 ... 125 131 ... 131 132 ... 132 135 ... 135 139 ... 139 140 ... 140 143 ... 143 144 ...)) (execute-extended-command nil "auto-save-buffers" #("save
+w3m-session-save
+bookmark-save
+customize-save-variable
+auto-save-enable
+w3m-lnum-save-image
+evil-save-modified-and-close
+save-buffers-kill-emacs
+mouse-secondary-save-then-kill
+erc-save-buffer-in-logs" 4 5 ... 5 17 ... 17 20 ... 20 21 ... 21 22 ... 22 31 ... 31 34 ... 34 35 ... 35 36 ... 36 46 ... 46 49 ... 49 59 ... 59 60 ... 60 65 ... 65 68 ... 68 76 ... 76 77 ... 77 86 ... 86 89 ... 89 96 ... 96 97 ... 97 102 ... 102 105 ... 105 125 ... 125 126 ... 126 129 ... 129 149 ... 149 150 ... 150 166 ... 166 169 ... 169 180 ... 180 181 ... 181 185 ... 185 188 ... 188 204 ...)) (evil-save nil nil) (execute-extended-command nil "evil-save" #("evil save
+evil-save-modified-and-close
+evilnc-comment-and-kill-ring-save
+evil-save-and-close
+evil-save
+evil-save-and-quit" 9 10 ... 10 14 ... 14 15 ... 15 18 ... 18 38 ... 38 39 ... 39 43 ... 43 68 ... 68 71 ... 71 72 ... 72 73 ... 73 77 ... 77 78 ... 78 81 ... 81 92 ... 92 93 ... 93 97 ... 97 98 ... 98 101 ... 101 102 ... 102 103 ... 103 107 ... 107 108 ... 108 111 ... 111 121 ...)) (evil-buffer-new nil nil) (execute-extended-command nil "evil-buffer-new" #("buffer new
+ibuffer-forward-next-marked
+ibuffer-do-kill-lines
+ibuffer-backwards-next-marked
+evil-buffer-new
+ibuffer-forward-line
+ibuffer-kill-line
+ibuffer-backward-line
+ibuffer-negate-filter" 10 11 ... 11 12 ... 12 18 ... 18 27 ... 27 29 ... 29 38 ... 38 39 ... 39 40 ... 40 46 ... 46 57 ... 57 59 ... 59 60 ... 60 61 ... 61 62 ... 62 68 ... 68 79 ... 79 81 ... 81 90 ... 90 91 ... 91 96 ... 96 102 ... 102 103 ... 103 105 ... 105 106 ... 106 107 ... 107 108 ... 108 114 ... 114 125 ... 125 127 ... 127 128 ... 128 129 ... 129 135 ... 135 143 ... 143 145 ... 145 146 ... 146 147 ... 147 153 ... 153 165 ... 165 167 ... 167 168 ... 168 169 ... 169 175 ... 175 176 ... 176 178 ... 178 189 ...)) (execute-extended-command nil "evil-buffer-new" #("buffer new
+evil-buffer-new
+sql-set-sqli-buffer-generally" 10 11 ... 11 16 ... 16 22 ... 22 23 ... 23 25 ... 25 26 ... 26 27 ... 27 40 ... 40 46 ... 46 49 ... 49 51 ... 51 56 ...)) (evil-record-macro 106) (kill-buffer-and-window) (execute-extended-command nil "kill-buffer-and-window" #("kill buffer and
+kill-buffer-and-window" 15 16 ... 16 20 ... 20 21 ... 21 27 ... 27 28 ... 28 30 ... 30 38 ...)) (read-only-mode (quote toggle)) (execute-extended-command nil "read-only-mode" #("read only mode
+read-only-mode" 14 15 ... 15 19 ... 19 20 ... 20 24 ... 24 25 ... 25 28 ... 28 29 ...)) (toggle-read-only nil t) (help-quit) (execute-extended-command nil "help-quit" #("quit
+help-quit
+evil-quit-all
+magit-reset-quickly
+quickurl-browse-url-ask
+quickurl-ask
+evilnc-quick-comment-or-uncomment-to-the-line
+keyboard-quit
+cvs-quickdir
+toggle-uniquify-buffer-names" 4 5 ... 5 10 ... 10 13 ... 13 14 ... 14 15 ... 15 20 ... 20 23 ... 23 28 ... 28 29 ... 29 41 ... 41 44 ... 44 48 ... 48 49 ... 49 52 ... 52 72 ... 72 73 ... 73 76 ... 76 85 ... 85 86 ... 86 93 ... 93 96 ... 96 131 ... 131 132 ... 132 141 ... 141 144 ... 144 145 ... 145 146 ... 146 150 ... 150 153 ... 153 158 ... 158 159 ... 159 169 ... 169 172 ... 172 187 ...)) (ibuffer-list-buffers nil) (execute-extended-command nil "ibuffer-list-buffers" #("list buff
+ibuffer-list-buffers
+list-buffers" 9 10 ... 10 18 ... 18 22 ... 22 23 ... 23 26 ... 26 30 ... 30 31 ... 31 35 ... 35 36 ... 36 39 ... 39 43 ...)) (evil-delete 47 101 (quote line) nil nil) (evil-delete 101 102 (quote line) nil nil) (list-buffers nil) (execute-extended-command nil "list-buffers" #("list buffer
+ibuffer-list-buffers
+list-buffers" 11 12 ... 12 20 ... 20 24 ... 24 25 ... 25 30 ... 30 32 ... 32 33 ... 33 37 ... 37 38 ... 38 43 ... 43 45 ...)) (ibuffer-visit-buffer-other-window) (execute-extended-command nil "ibuffer-visit-buffer-other-window" #("buffer other window
+counsel-switch-buffer-other-window
+switch-to-buffer-other-window
+clone-indirect-buffer-other-window
+ido-switch-buffer-other-window
+ibuffer-visit-buffer-other-window
+ibuffer-other-window
+ivy-switch-buffer-other-window
+Buffer-menu-view-other-window
+buffer-menu-other-window" 19 20 ... 20 35 ... 35 41 ... 41 42 ... 42 47 ... 47 48 ... 48 53 ... 53 54 ... 54 55 ... 55 65 ... 65 71 ... 71 72 ... 72 77 ... 77 78 ... 78 83 ... 83 84 ... 84 85 ... 85 100 ... 100 106 ... 106 107 ... 107 112 ... 112 113 ... 113 118 ... 118 119 ... 119 120 ... 120 131 ... 131 137 ... 137 138 ... 138 143 ... 143 144 ... 144 149 ... 149 150 ... 150 151 ... 151 152 ... 152 158 ... 158 172 ... 172 177 ... 177 178 ... 178 183 ... 183 184 ... 184 185 ... 185 186 ... 186 192 ... 192 193 ... 193 198 ... 198 199 ... 199 204 ... 204 205 ... 205 206 ... 206 217 ... 217 223 ... 223 224 ... 224 229 ... 229 230 ... 230 235 ... 235 236 ... 236 237 ... 237 243 ... 243 254 ... 254 259 ... 259 260 ... 260 265 ... 265 266 ... 266 267 ... 267 273 ... 273 279 ... 279 284 ... 284 285 ... 285 290 ... 290 291 ...)) (Buffer-menu-switch-other-window) (buffer-menu-other-window nil) (Buffer-menu-other-window) (scratch (quote c-mode)) (kill-buffer "*c*") (evil-switch-to-windows-last-buffer) (general-describe-keybindings nil) (execute-extended-command nil "evil-switch-to-windows-last-buffer" #("last buff
+evil-switch-to-windows-last-buffer" 9 10 ... 10 33 ... 33 37 ... 37 38 ... 38 41 ... 41 44 ...)) (magit-commit-extend nil t) (execute-extended-command nil "magit-commit-extend" #(" extend
+magit-commit-extend
+execute-extended-command
+dired-mark-extension
+dired-flag-extension" 7 8 ... 8 21 ... 21 26 ... 26 27 ... 27 28 ... 28 36 ... 36 41 ... 41 52 ... 52 53 ... 53 64 ... 64 69 ... 69 73 ... 73 74 ... 74 85 ... 85 90 ... 90 94 ...)) (evil-command-window-execute) (random-healthy-color-theme nil) (color-theme-select nil) (load-theme (quote alect-dark) nil nil)))
+(setq-default counsel-M-x-history '(#("^ace" 0 4 (ivy-index 0)) #("^read" 0 5 (ivy-index 0)) #("^toggle-" 0 8 (ivy-index 0)) #("^buffer menu other" 0 18 (ivy-index 3)) #("^buffer menu -other" 0 19 (ivy-index 1)) #("^buffer menu ot" 0 15 (ivy-index 1)) #("^kill window" 0 12 (ivy-index 0)) #("^sc" 0 3 (ivy-index 0)) #("^scra" 0 5 (ivy-index 0)) #("^list-buff" 0 10 (ivy-index 0)) #("^shell " 0 7 (ivy-index 2)) #("^" 0 1 (ivy-index 0)) #("^ last buff" 0 11 (ivy-index 0)) #(" keybind" 0 8 (ivy-index 0)) #("^ extend" 0 8 (ivy-index 1)) #("^evil-command" 0 13 (ivy-index 2)) #("^ theme" 0 7 (ivy-index 11)) #("^rando" 0 6 (ivy-index 0))))
+(setq-default counsel-etags-tag-history '(("main.c:14:int test () {" . "/home/parallels/work/tmp/") ("main.c:4:#define LENGTH(" . "/home/parallels/work/tmp/")))
+(setq-default counsel-etags-tags-file-history '("/home/parallels/work/tmp/TAGS"))
+(setq-default counsel-git-grep-cmd-history '("git --no-pager grep --full-name -n --no-color -i -I -e \"%s\""))
+(setq-default counsel-git-grep-history '("test" "sss" "MainWindow" "QAppli" "aaa" "Binary file a.out matches" "hello" "main.c:2:#include <sys/syscall.h>"))
+(setq-default evil-ex-history '(#("w my test" 0 1 (ex-index 1) 1 2 (ex-index 2) 2 3 (ex-index 3) 3 4 (ex-index 4) 4 5 (ex-index 5) 5 6 (ex-index 6) 6 7 (ex-index 7) 7 8 (ex-index 8) 8 9 (ex-index 9)) #("w" 0 1 (ex-index 1)) #("e ~/work/qt/test1/main.cpp" 0 1 (ex-index 1) 1 2 (ex-index 2) 2 3 (ex-index 3) 3 4 (ex-index 4) 4 5 (ex-index 5) 5 6 (ex-index 6) 6 7 (ex-index 7) 7 8 (ex-index 8) 8 9 (ex-index 9) 9 10 (ex-index 10) 10 11 (ex-index 11) 11 12 (ex-index 12) 12 13 (ex-index 13) 13 14 (ex-index 14) 14 15 (ex-index 15) 15 16 (ex-index 16) 16 17 (ex-index 17) 17 18 (ex-index 18) 18 19 (ex-index 19) 19 20 (ex-index 20) 20 21 (ex-index 21) 21 22 (ex-index 22) 22 23 (ex-index 23) 23 24 (ex-index 24) 24 25 (ex-index 25) 25 26 (ex-index 26)) #("qq" 0 1 (ex-index 1) 1 2 (ex-index 2)) #("e xixi" 0 1 (ex-index 1) 1 2 (ex-index 2) 2 3 (ex-index 3) 3 4 (ex-index 4) 4 5 (ex-index 5) 5 6 (ex-index 6)) #("q" 0 1 (ex-index 1)) #("w xixi" 0 1 (ex-index 1) 1 2 (ex-index 2) 2 3 (ex-index 3) 3 4 (ex-index 4) 4 5 (ex-index 5) 5 6 (ex-index 6)) #("x" 0 1 (ex-index 1))))
+(setq-default extended-command-history '(#("kill buffe" 0 10 (ivy-index 1)) #("yank co" 0 7 (ivy-index 1)) #("dired-j" 0 7 (ivy-index 1)) #("save" 0 4 (ivy-index 36)) #("my-mul" 0 6 (ivy-index 0)) #("my-mu" 0 5 (ivy-index 0)) #("my-m" 0 4 (ivy-index 0)) #("save file" 0 9 (ivy-index 0)) #("wg-" 0 3 (ivy-index 3)) #("wg-re" 0 5 (ivy-index 0)) #("quit" 0 4 (ivy-index 1)) #("ace- window" 0 11 (ivy-index 8)) #("ace-swa" 0 7 (ivy-index 0)) #("max" 0 3 (ivy-index 0)) #("max win" 0 7 (ivy-index 0)) #("open file" 0 9 (ivy-index 0)) #("my-toggle" 0 9 (ivy-index 2)) #("my-toggl" 0 8 (ivy-index 2)) #("my-toggle-ful" 0 13 (ivy-index 0)) #("toggle-two" 0 10 (ivy-index 0)) #("togg" 0 4 (ivy-index 0)) #("rot" 0 3 (ivy-index 0)) #("rota" 0 4 (ivy-index 0)) #("ace window" 0 10 (ivy-index 3)) #("auto save" 0 9 (ivy-index 0)) #("auto-save-mode" 0 14 (ivy-index 0)) #("evil save" 0 9 (ivy-index 3)) #("buffer new" 0 10 (ivy-index 0)) #("kill buffer and" 0 15 (ivy-index 0)) #("read only mode" 0 14 (ivy-index 0)) #("list buff" 0 9 (ivy-index 0)) #("list buffer" 0 11 (ivy-index 1)) #("buffer other window" 0 19 (ivy-index 4)) #("last buff" 0 9 (ivy-index 0)) #(" extend" 0 7 (ivy-index 0))))
+(setq-default ivy-history '("kkk" "wg0" "main.cpp" "test1/" "qt/" "xixi" "alect-dark"))
+(setq-default minibuffer-history '("k" "wg0" "kkk"))
+(setq-default my-dired-directory-history '("/home/parallels/work/qt/test1" "/home/parallels/work/qt" "/home/parallels/work/tmp"))
 (setq-default occur-collect-regexp-history '("\\1"))
+(setq-default table-capture-columns-history '(""))
+(setq-default table-capture-justify-history '("left"))
+(setq-default table-capture-min-cell-width-history '("5"))
+(setq-default table-cell-height-history '("1"))
+(setq-default table-cell-span-direction-history '("right"))
+(setq-default table-cell-split-contents-to-history '("split"))
+(setq-default table-cell-split-orientation-history '("horizontally"))
+(setq-default table-cell-width-history '("5"))
+(setq-default table-col-delim-regexp-history '(""))
+(setq-default table-columns-history '("3"))
+(setq-default table-insert-row-column-history '("row"))
+(setq-default table-justify-history '("center"))
+(setq-default table-row-delim-regexp-history '(""))
+(setq-default table-rows-history '("3"))
+(setq-default table-sequence-count-history '("0"))
+(setq-default table-sequence-increment-history '("1"))
+(setq-default table-sequence-interval-history '("1"))
+(setq-default table-sequence-justify-history '("left"))
+(setq-default table-sequence-string-history '("0"))
+(setq-default table-source-caption-history '("Table"))
+(setq-default table-source-language-history '("html"))
+(setq-default table-target-history '("cell"))
+(set-register 113 "1q")

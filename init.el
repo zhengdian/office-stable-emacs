@@ -178,3 +178,10 @@
 ;;; no-byte-compile: t
 ;;; End:
 (put 'erase-buffer 'disabled nil)
+
+
+;;; zhengdian custom
+(load-theme 'kaolin-valley-dark t)
+(setenv "GTAGSLIBPATH" (concat "/usr/include" ":" "/usr/src/linux/include" ":"))
+(setenv "MAKEOBJDIRPREFIX" (file-truename "~/work/obj/"))
+(setq company-backends '((company-dabbrev-code company-gtags)))
