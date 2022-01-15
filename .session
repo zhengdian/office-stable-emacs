@@ -1,0 +1,5 @@
+;;; -*- coding: utf-8; -*-
+;;; Automatically generated on Sat Jan 15 11:29:31 2022
+;;; Invoked by parallels@debian-gnu-linux-10 using 26.1
+(setq-default evil-ex-history '(#("q" 0 1 (ex-index 1))))
+(setq-default occur-collect-regexp-history '("\\1"))
